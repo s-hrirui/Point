@@ -1,0 +1,77 @@
+ext {
+    android = [
+            applicationId            : "com.cz.point",
+            compileSdkVersion        : 28,
+            minSdkVersion            : 19,
+            targetSdkVersion         : 28,
+            versionCode              : 1,
+            versionName              : "1.0",
+            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner"
+    ]
+
+    version = [
+            appcompat            : "1.0.2",
+            junit                : "4.12",
+            constraintlayout     : "1.1.3",
+            runner               : "1.2.0",
+            espresso             : "3.2.0",
+            material             : "1.1.0-alpha09",
+            kotlin               : "1.3.41",
+            multidex             : "2.0.0",
+
+            banner               : "1.4.10",
+            brvah                : "2.9.47-androidx",
+            glide                : "4.9.0",
+            autosize             : "1.1.2",
+            smartrefresh         : "1.1.0-andx-1",
+            luban                : "1.1.8",
+            matisse              : "0.5.3-beta3",
+
+            rxjava               : "2.1.3",
+            rxandroid            : "2.0.1",
+            rxkotlin             : "2.3.0",
+            retrofit             : "2.4.0",
+            logging              : "3.6.0",
+
+
+            leakcanary           : "2.0-beta-2",
+            pandora              : "androidx_v2.0.5",
+            pandora_no_op        : "v2.0.3",
+
+    ]
+
+    dependencies = [
+            "appcompat"                 : "androidx.appcompat:appcompat:${version["appcompat"]}",
+            "core"                      : "androidx.core:core-ktx:${version["appcompat"]}",
+            "constraintlayout"          : "androidx.constraintlayout:constraintlayout:${version["constraintlayout"]}",
+            "junit"                     : "junit:junit:${version["junit"]}",
+            "runner"                    : "androidx.test:runner:${version["runner"]}",
+            "espresso"                  : "androidx.test.espresso:espresso-core:${version["espresso"]}",
+            "material"                  : "com.google.android.material:material:${version["material"]}",
+            "kotlin"                    : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${version["kotlin"]}",
+            "multidex"                  : "androidx.multidex:multidex:${version["multidex"]}",
+
+            "banner"                    : "com.youth.banner:banner:${version["banner"]}",
+            "brvah"                     : "com.github.CymChad:BaseRecyclerViewAdapterHelper:${version["brvah"]}",
+            "glide"                     : "com.github.bumptech.glide:glide:${version["glide"]}",
+            "glide_compiler"            : "com.github.bumptech.glide:compiler:${version["glide"]}",
+            "autosize"                  : "me.jessyan:autosize:${version["autosize"]}",
+            "smartrefresh"              : "com.scwang.smartrefresh:SmartRefreshLayout:${version["smartrefresh"]}",
+            "luban"                     : "top.zibin:Luban:${version["luban"]}",
+            "matisse"                   : "com.zhihu.android:matisse:${version["matisse"]}",
+
+            
+            "rxjava"                    : "io.reactivex.rxjava2:rxjava:${version["rxjava"]}",
+            "rxandroid"                 : "io.reactivex.rxjava2:rxandroid:${version["rxandroid"]}",
+            "rxkotlin"                  : "io.reactivex.rxjava2:rxkotlin:${version["rxkotlin"]}",
+
+            "retrofit"                  : "com.squareup.retrofit2:retrofit:${version["retrofit"]}",
+            "converter-gson"            : "com.squareup.retrofit2:converter-gson:${version["retrofit"]}",
+            "adapter-rxjava"            : "com.squareup.retrofit2:adapter-rxjava2:${version["retrofit"]}",
+            "logging"                   : "com.squareup.okhttp3:logging-interceptor:${version["logging"]}",
+
+            "leakcanary"                : "com.squareup.leakcanary:leakcanary-android:${version["leakcanary"]}",
+            "pandora"                   : "com.github.whataa:pandora:${version["pandora"]}",
+            "pandora-no-op"             : "com.github.whataa:pandora-no-op:${version["pandora_no_op"]}",
+    ]
+}

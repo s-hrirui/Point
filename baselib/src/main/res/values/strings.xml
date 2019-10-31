@@ -1,0 +1,4 @@
+<resources>
+    <string name="network_error">当前网络不可用，请检查网络设置</string>
+    <string name="loading">加载中...</string>
+</resources>
